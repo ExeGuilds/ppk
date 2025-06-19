@@ -368,7 +368,6 @@ case "menu": case "allmenu": case "pp": case "bokep": {
 let alpi = await getBuffer("https://raw.githubusercontent.com/Fiisya/uploads/main/uploads/1748585771039.jpeg");
 let get = await resize(alpi, 100, 100);
 let teksmenu = `
-is a WhatsApp bot built with NodeJS and the Baileys library, designed to enhance user interaction on the platform.
 
 –   *BOT INFORMATION*
 ▢  *Botname :* ${global.namabot2}
@@ -483,23 +482,23 @@ is a WhatsApp bot built with NodeJS and the Baileys library, designed to enhance
  document: fs.readFileSync('./package.json'),
  fileName: `${namabot}`,
  mimetype: "image/png",
- fileLength: "99999999999999",
+ //fileLength: "99999999999999",
  pageCount: "100",
  jpegThumbnail: get,
  caption: teksmenu,
  contextInfo: {
  isForwarded: true,
  forwardingScore: 99999,
- externalAdReply: {
- showAdAttribution: true,
- title: `${namabot}`,
- mediaType: 1,
- previewType: 1,
- body: `Haikal Here`,
- thumbnailUrl: 'https://raw.githubusercontent.com/Fiisya/uploads/main/uploads/1748584045926.jpeg',
- renderLargerThumbnail: true,
- sourceUrl: global.linkyt
- },
+ //externalAdReply: {
+ //showAdAttribution: true,
+ //title: `${namabot}`,
+ //mediaType: 1,
+ //previewType: 1,
+ //body: `Yepz Here`,
+ //thumbnailUrl: 'https://raw.githubusercontent.com/Fiisya/uploads/main/uploads/1748584045926.jpeg',
+ //renderLargerThumbnail: true,
+ //sourceUrl: global.linkyt
+ //},
  forwardedNewsletterMessageInfo: {
  newsletterJid: '120363399894937264@newsletter',
  serverMessageId: -1,
